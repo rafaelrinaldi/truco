@@ -11,19 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaelrinaldi/truncate.git"
+    "url": "git+https://github.com/rafaelrinaldi/truco.git"
   },
   "keywords": [
     "truncate",
+    "truco",
     "strings",
     "strip"
   ],
   "author": "Rafael Rinaldi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafaelrinaldi/truncate/issues"
+    "url": "https://github.com/rafaelrinaldi/truco/issues"
   },
-  "homepage": "https://github.com/rafaelrinaldi/truncate#readme",
+  "homepage": "https://github.com/rafaelrinaldi/truco#readme",
   "dependencies": {
     "tape": "^4.0.1"
   }
