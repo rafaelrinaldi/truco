@@ -1,0 +1,30 @@
+{
+  "name": "truncate",
+  "version": "1.0.0",
+  "description": "Truncate strings.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/truncate.git"
+  },
+  "keywords": [
+    "truncate",
+    "strings",
+    "strip"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/truncate/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/truncate#readme",
+  "dependencies": {
+    "tape": "^4.0.1"
+  }
+}
