@@ -2,7 +2,7 @@
 
 > Truncate strings.
 
-_[Truco](https://en.wikipedia.org/wiki/Truco) is a popular trick-taking card game originally from Valencia and Balearic Islands (Spain) and very popular in some countries like Brazil, Argentina, Paraguay and Italy._
+<small>[Truco](https://en.wikipedia.org/wiki/Truco) is a popular trick-taking card game originally from Valencia and Balearic Islands (Spain) and very popular in some countries like Brazil, Argentina, Paraguay and Italy.</small>
 
 ## Install
 
