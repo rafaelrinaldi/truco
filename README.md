@@ -38,23 +38,23 @@ truncate('Lorem Ipsum', 5, '***'); // Lorem***
 
 #### `truco(string, [limit], [ellipsis])`
 
-#### string
+#### `string`
 
 *Required*  
 Type: `string`
 
 The string to be truncated.
 
-#### limit
+#### `limit`
 
-Type: `number`
+Type: `number`  
 Default: the total length of `string`
 
 The position where the string should be truncated at.
 
-#### ellipsis
+#### `ellipsis`
 
-Type: `string`
+Type: `string`  
 Default: `…`
 
 The symbol that should be placed at the end of the truncated string.
