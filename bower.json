@@ -1,0 +1,29 @@
+{
+  "name": "truncate",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rafaelrinaldi/truco",
+  "authors": [
+    "Rafael Rinaldi <rafael@rinaldi.io>"
+  ],
+  "description": "Truncate strings.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "truncate",
+    "strings",
+    "strip"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "test.js"
+  ]
+}
