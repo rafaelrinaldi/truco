@@ -1,6 +1,6 @@
 {
   "name": "truco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Truncate strings.",
   "main": "index.js",
   "engines": {
