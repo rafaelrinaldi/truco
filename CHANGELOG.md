@@ -1,3 +1,7 @@
+# v1.1.1 (2015/07/28)
+
+* Fixed a bug on module export.
+
 # v1.1.0 (2015/07/28)
 
 * Improved scope isolation.
