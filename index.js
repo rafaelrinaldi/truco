@@ -1,17 +1,21 @@
-'use strict';
+(function(exports) {
 
-function truncate(string, limit, ellipsis) {
-  limit = limit || string.length;
-  ellipsis = ellipsis || '…';
+  'use strict';
 
-  return string.substring(0, limit).concat(ellipsis); 
-}
+  function truco(string, limit, ellipsis) {
+    limit = limit || string.length;
+    ellipsis = ellipsis || '…';
 
-if(typeof define === 'function' && define.amd) {
-  define(function() { return truncate; });
-} else if(typeof module !== 'undefined' && module.exports) {
-  module.exports = truncate;
-} else {
-  window.truncate = truncate;
-}
+    return string.substring(0, limit).concat(ellipsis);
+  }
+
+  if(typeof define === 'function' && define.amd) {
+    define(function() { return truco; });
+  } else if(typeof module !== 'undefined' && module.exports) {
+    module.exports = truco;
+  } else {
+    exports.truco = ;
+  }
+
+})(this);
 
