@@ -14,7 +14,7 @@
   } else if(typeof module !== 'undefined' && module.exports) {
     module.exports = truco;
   } else {
-    exports.truco = ;
+    exports.truco = truco;
   }
 
 })(this);
