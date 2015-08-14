@@ -1,3 +1,7 @@
+# v1.2.0 (2015/08/14)
+
+* Only add ellipsis if needed.
+
 # v1.1.1 (2015/07/28)
 
 * Fixed a bug on module export.
