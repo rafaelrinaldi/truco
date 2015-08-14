@@ -6,6 +6,10 @@
     limit = limit || string.length;
     ellipsis = ellipsis || '…';
 
+    if(string.length <= limit) {
+      return string;
+    }
+
     return string.substring(0, limit).concat(ellipsis);
   }
 
