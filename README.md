@@ -6,58 +6,65 @@
 
 ## Install
 
-For Node.js:
+Via [npm](http://npmjs.com):
 
 ```sh
-$ npm install truco
+$ npm install truco --save
 ```
 
-For the browser:
-
-> It supports CommonJS, AMD and falls back to the browser global `truco`.
+Via [Bower](http://bower.io):
 
 ```sh
-$ bower install truco
+$ bower install truco --save
 ```
-
-## Features
-
-* Zero dependencies
-* Works on both Node.js and the browser
 
 ## Usage
 
 ```javascript
-var truncate = require('truco');
+var truco = require('truco');
 
-truncate('Lorem Ipsum', 5); // Lorem…
-truncate('Lorem Ipsum', 5, '***'); // Lorem***
+truco('Lorem Ipsum', 5); // Lorem…
+truco('Lorem Ipsum', 5, '***'); // Lorem***
+truco.reverse('Lorem Ipsum', 5); // …Ipsum
 ```
 
-### API
+## API
 
-#### `truco(string, [limit], [ellipsis])`
+## `truco(string, [limit], [options])`
 
-##### `string`
+### `string`
 
 *Required*  
 Type: `string`
 
 The string to be truncated.
 
-##### `limit`
+### `limit`
 
 Type: `number`  
 Default: the total length of `string`
 
 The position where the string should be truncated at.
 
-##### `ellipsis`
+### `options`
+
+Type: `object`
+
+Custom options.
+
+#### `options.ellipsis`
 
 Type: `string`  
 Default: `…`
 
-The symbol that should be placed at the end of the truncated string.
+The symbol that should be placed at the end/beginning of the truncated string.
+
+#### `options.moonwalk` ![moonwalker](http://tgnp.me/wp-content/uploads/2011/10/lunapic_132009218615037_5.gif)
+
+Type: `boolean`  
+Default: `false`  
+
+Wether or not to truncate string from the beginning to the end instead of the opposite.
 
 ## License
 
