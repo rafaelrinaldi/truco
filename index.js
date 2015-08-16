@@ -2,15 +2,22 @@
 
   'use strict';
 
-  function truco(string, limit, ellipsis) {
+  function truco(string, limit, options) {
     limit = limit || string.length;
-    ellipsis = ellipsis || '…';
+    options = options || {};
+
+    var ellipsis = options.ellipsis || '…';
+    var moonwalk = options.moonwalk || false;
 
     if(string.length <= limit) {
       return string;
     }
 
-    return string.substring(0, limit).concat(ellipsis);
+    if(moonwalk) {
+      return ellipsis + string.substring(string.length - limit);
+    } else {
+      return string.substring(0, limit) + ellipsis;
+    }
   }
 
   if(typeof define === 'function' && define.amd) {
