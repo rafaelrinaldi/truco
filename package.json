@@ -27,6 +27,6 @@
   "homepage": "https://github.com/rafaelrinaldi/truco#readme",
   "dependencies": {},
   "devDependencies": {
-    "tape": "^4.0.1"
+    "tape": "^4.2.0"
   }
 }
