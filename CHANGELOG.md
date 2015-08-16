@@ -1,3 +1,11 @@
+# v1.3.0 (2015/08/16)
+
+* 3rd argument is now an `options` object.
+* `ellipsis` is now set via `options.ellipsis`.
+* Added `options.moonwalk` feature.
+* Added `invert` test suite to test `options.moonwalk` feature.
+* Added a new test to check when no `limit` is specified.
+
 # v1.2.0 (2015/08/14)
 
 * Only add ellipsis if needed.
