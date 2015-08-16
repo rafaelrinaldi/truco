@@ -24,8 +24,8 @@ $ bower install truco --save
 var truco = require('truco');
 
 truco('Lorem Ipsum', 5); // Lorem…
-truco('Lorem Ipsum', 5, '***'); // Lorem***
-truco.reverse('Lorem Ipsum', 5); // …Ipsum
+truco('Lorem Ipsum', 5, {ellipsis: '***'}); // Lorem***
+truco('Lorem Ipsum', 5, {moonwalk: true}); // …Ipsum
 ```
 
 ## API
